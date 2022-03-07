@@ -39,7 +39,7 @@ app.listen(9005,function(error,success){
   if(error){
     console.log("Error while running server");
   }else{  
-    console.log("Server is listening to localhost:9005");
+    console.log("Go to http://localhost:9005/api/email in your browser");
   }
 })
 
